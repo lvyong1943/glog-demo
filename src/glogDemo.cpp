@@ -10,6 +10,11 @@ using namespace std;
 
 std::string GetLoggerPath(const char *argv0);
 
+void help(void)
+{
+	std::cout << "Hello world!" << std::endl;
+}
+
 int main(int argc, char **argv)
 {
 	// Start google log system:
