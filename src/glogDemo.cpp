@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	LOG(INFO) << "info test" << "hello log!";
 	LOG(WARNING) << "warning test";
 	LOG(ERROR) << "error test";
-	LOG(FATAL) << "fatal test";
+	LOG(FATAL) << "fatal test"; // See Document
 
 	std::system("pause");
     return 0;
