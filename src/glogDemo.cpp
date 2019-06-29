@@ -6,6 +6,8 @@
 
 #include "GLogger.h"
 
+using namespace std;
+
 std::string GetLoggerPath(const char *argv0);
 
 int main(int argc, char **argv)
